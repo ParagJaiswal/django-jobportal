@@ -1,0 +1,40 @@
+{% extends 'jobseeker/base.html' %}
+
+{% block content %}
+<h1><center>Update your vacancies</center></h1>
+<h3><center>“Every good conversation starts with listening.”</center></h3><br><br><br>
+<p><strong><i>When people go to work, they shouldn’t have to leave their hearts at home.In order to build a rewarding employee experience, you need to understand what matters most to your people.I am convinced that nothing we do is more important than hiring and developing people. At the end of the day, you bet on people not on strategies.</i></strong></p>
+<p>We are dedicated to simplifying the human resource issues and challenges that come with running a small-to-midsize business. We help your entire team—everyone from the business owner, to the HR manager, to individual employees—make their lives easier by partnering with them.</p>
+<br><br><br>
+
+
+ <h2>Login Form</h2>
+
+<form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+    
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+</body>
+</html>
+
+{% endblock %}
